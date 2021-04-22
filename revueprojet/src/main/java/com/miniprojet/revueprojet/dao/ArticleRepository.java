@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.miniprojet.revueprojet.entities.Article;
 
-public interface IdaoArticle extends JpaRepository<Article, Long>{
-	void ajouterArticle();
+public interface ArticleRepository extends JpaRepository<Article, Long> {
+
 }
